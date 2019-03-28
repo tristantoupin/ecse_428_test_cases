@@ -1,4 +1,4 @@
-package ecse428-potatopeeps-testcases;
+package potatopeeps_test_cases;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
