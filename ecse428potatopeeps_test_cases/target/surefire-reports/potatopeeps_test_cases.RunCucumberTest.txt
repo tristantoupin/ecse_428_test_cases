@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: potatopeeps_test_cases.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 59, Failures: 0, Errors: 0, Skipped: 59, Time elapsed: 1.176 sec
+Tests run: 97, Failures: 0, Errors: 0, Skipped: 97, Time elapsed: 1.28 sec

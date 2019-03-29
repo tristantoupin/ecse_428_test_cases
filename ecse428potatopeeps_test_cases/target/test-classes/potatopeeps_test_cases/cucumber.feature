@@ -11,7 +11,6 @@
 
 #----------------- Default Structure----------------
 
-
 # Story 1
 Feature: Browse item in the menu
     # Normal flow
@@ -52,17 +51,22 @@ Feature: Browse item in the menu
 # Story 6
 @tag Feature: Change status of an order
     # Normal flow
-    Scenario: The staff successfully changes the status of an order
+    Scenario Outline: The staff successfully changes the status of an order
         Given that I am logged in as a staff
         When I navigate the orders
         And the customer submits and order
         And changes the status of the order to <status>
-        Then the status persists
+        Then the status persists  
+    Examples:
+     | status |
+     | in progress |
+     | served |
+     | ready |
 
 # Story 9
 @tag Feature: Add item to the menu
     # Normal flow
-    Scenario: The manager successfully adds an item to the menu
+    Scenario Outline: The manager successfully adds an item to the menu
         Given that I am logged in as a manager
         When I enter the <price> of an item
         And I enter the <name> of an item
@@ -71,7 +75,15 @@ Feature: Browse item in the menu
         And I enter the <tag> of an item
         And submits the item
         Then the item persists
-
+    Examples: Price, names, descriptions, inventory quantities and tags
+     | price |  name | description | inventory | tag |
+     | 789 | jWVCTBfXrdzA | lCRsxXDHXHda | 123 | Appetizer |
+     | 678 | OnpVCMQFChcP | exwnNSCtzboF | 234 | Desert |
+     | 567 | NzlNTwYLuVAv | XcEsHzsBtGEC | 345 | Drink |
+     | 456 | bajAQrLKlnRy | bajAQrLKlnRy | 456 | Main Course |
+     | 345 | vUorAWQiVJrW | UcPyoxPaZuIr | 567 | Soup |
+     | 234 | cIKrSnAzqkSc | nyygyGUXbRNU | 678 | Spicy |
+     | 123 | PVJxbIrsjwkK | dYOGxSdrHqDW | 789 | Vegetarian |
 
 # Story 10
 @tag Feature: Delete item from the menu
@@ -82,47 +94,83 @@ Feature: Browse item in the menu
         And the system prompts me if I am sure that I want to delete the item
         And I select that I am sure
         Then the item is deleted
+
 # Story 11
 @tag Feature: Update item from the menu
     # Normal flow
-    Scenario: The manager successfully updates the name of an item to the menu
+    Scenario Outline: The manager successfully updates the name of an item to the menu
         Given that I am logged in as a manager
         When update the <name> of the  an item
         And I save the changes
         Then the item's name was updated
+    Examples: Names
+     | name |
+     | annvIQCJQRvP |
+     | qTOmJbNWHHBV |
+     | hhuaSvauNVmv |
 
     # Alternate flow
-    Scenario: The manager successfully updates the price of an item to the menu
+    Scenario Outline: The manager successfully updates the price of an item to the menu
         Given that I am logged in as a manager
         When update the <price> of the  an item
         And I save the changes
         Then the item's name was updated
+    Examples: Prices
+     | price |
+     | 913 |
+     | 12 |
+     | 163 |
 
     # Alternate flow
-    Scenario: The manager successfully updates the description of an item to the menu
+    Scenario Outline: The manager successfully updates the description of an item to the menu
         Given that I am logged in as a manager
         When update the <description> of the  an item
         And I save the changes
         Then the item's name was updated
+    Examples: Descriptions
+     | description |
+     | dkQQrXaCgWdQ |
+     | FcedjWIzUrRY |
+     | ReeoWARsYufk |
 
     # Alternate flow
-    Scenario: The manager successfully updates the quantity of an item to the menu
+    Scenario Outline: The manager successfully updates the quantity of an item to the menu
         Given that I am logged in as a manager
         When update the <quantity> of the  an item
         And I save the changes
         Then the item's name was updated
+    Examples: Quantities
+     | quantity |
+     | 83 |
+     | 12 |
+     | 7123 |
 
     # Alternate flow
-    Scenario: The manager successfully updates the tag of an item to the menu
+    Scenario Outline: The manager successfully updates the tag of an item to the menu
         Given that I am logged in as a manager
         When update the <tag> of the  an item
         And I save the changes
         Then the item's name was updated
+    Examples: Tags
+     | tag |
+     | Appetizer |
+     | Desert |
+     | Drink |
+     | Main Course |
+     | Soup |
+     | Spicy |
+     | Vegetarian |
+
 
 # Story 12
 @tag Feature: Update item from the menu
     # Normal flow
-    Scenario: The manager successfully updates the name of an item to the menu
+    Scenario Outline: The manager successfully updates the name of an item to the menu
         Given that I am logged in
         When I select the task <task>
         Then the landing page of that task is open
+    Examples: Tasks
+     | task |
+     | manager |
+     | staff |
+     | customer |

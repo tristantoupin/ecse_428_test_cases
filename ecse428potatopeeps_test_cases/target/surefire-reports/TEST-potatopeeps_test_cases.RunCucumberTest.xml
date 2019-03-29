@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="59" failures="0" name="potatopeeps_test_cases.RunCucumberTest" time="0.097" errors="0" skipped="59">
+<testsuite tests="97" failures="0" name="potatopeeps_test_cases.RunCucumberTest" time="0.088" errors="0" skipped="97">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -65,58 +65,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Browse item in the menu" name="The customer successfully browses the menu" time="0.004">
-    <skipped/>
-  </testcase>
   <testcase classname="Browse item in the menu" name="The customer successfully browses the menu" time="0.007">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully browses the menu" time="0.007">
+  <testcase classname="Browse item in the menu" name="The customer successfully creates an order" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully browses the menu" time="0.013">
+  <testcase classname="Browse item in the menu" name="The customer successfully review and request the bill" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully creates an order" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully creates an order" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully creates an order" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully creates an order" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully creates an order" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully review and request the bill" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully review and request the bill" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully review and request the bill" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully review and request the bill" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully review and request the bill" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully queries the staff" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully queries the staff" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully queries the staff" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Browse item in the menu" name="The customer successfully queries the staff" time="0">
+  <testcase classname="Browse item in the menu" name="The customer successfully queries the staff" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="Browse item in the menu" name="The staff successfully changes the status of an order" time="0.001">
@@ -125,13 +83,43 @@
   <testcase classname="Browse item in the menu" name="The staff successfully changes the status of an order" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The staff successfully changes the status of an order" time="0.001">
+  <testcase classname="Browse item in the menu" name="The staff successfully changes the status of an order" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The staff successfully changes the status of an order" time="0">
     <skipped/>
   </testcase>
   <testcase classname="Browse item in the menu" name="The staff successfully changes the status of an order" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="Browse item in the menu" name="The staff successfully changes the status of an order" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
@@ -158,22 +146,88 @@
   <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully deletes an item to the menu" time="0.002">
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully deletes an item to the menu" time="0.002">
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully deletes an item to the menu" time="0.002">
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully deletes an item to the menu" time="0.002">
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully deletes an item to the menu" time="0.002">
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0">
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully adds an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully deletes an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0">
@@ -185,22 +239,37 @@
   <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.005">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.005">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.005">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.005">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the description of an item to the menu" time="0">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the description of an item to the menu" time="0">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the price of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the description of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the description of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the description of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the description of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="Browse item in the menu" name="The manager successfully updates the description of an item to the menu" time="0">
@@ -215,10 +284,19 @@
   <testcase classname="Browse item in the menu" name="The manager successfully updates the quantity of an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the quantity of an item to the menu" time="0.002">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the quantity of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the quantity of an item to the menu" time="0.003">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the quantity of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the quantity of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the quantity of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0.001">
@@ -230,16 +308,52 @@
   <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0.001">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0">
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the tag of an item to the menu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Browse item in the menu" name="The manager successfully updates the name of an item to the menu" time="0.001">
     <skipped/>
   </testcase>
 </testsuite>
